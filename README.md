@@ -1,4 +1,5 @@
 # Symfony Skeleton in a Domain Driven Design architecture
+[![Latest Stable Version](https://poser.pugx.org/andythorne/symfony-skeleton-ddd/v)](//packagist.org/packages/andythorne/symfony-skeleton-ddd) [![Total Downloads](https://poser.pugx.org/andythorne/symfony-skeleton-ddd/downloads)](//packagist.org/packages/andythorne/symfony-skeleton-ddd) [![Latest Unstable Version](https://poser.pugx.org/andythorne/symfony-skeleton-ddd/v/unstable)](//packagist.org/packages/andythorne/symfony-skeleton-ddd) [![License](https://poser.pugx.org/andythorne/symfony-skeleton-ddd/license)](//packagist.org/packages/andythorne/symfony-skeleton-ddd) 
 
 ## Installation
 ```bash
