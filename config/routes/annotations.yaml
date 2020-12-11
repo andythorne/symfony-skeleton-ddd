@@ -1,0 +1,9 @@
+#avowed_controllers:
+#    resource: '../../src/apps/Avowed/Controller/**/*'
+#    type: annotation
+#    prefix: /avowed
+#
+#admin_controllers:
+#    resource: '../../src/apps/Admin/Controller/**/*'
+#    type: annotation
+#    prefix: /admin

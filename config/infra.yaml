@@ -1,0 +1,17 @@
+services:
+  # default configuration for services in *this* file
+  _defaults:
+    autowire: true      # Automatically injects dependencies in your services.
+    autoconfigure: true # Automatically registers your services as commands, event subscribers, etc.
+
+  # makes classes in src-domains/*/ available to be used as services
+  # this creates a service per class whose id is the fully-qualified class name
+  Infra\:
+    resource: '../src/infra/*'
+    exclude: '../src/infra/*/{DependencyInjection,Exception,Message}'
+    abstract: false
+
+  #  infra_event_listeners:
+  #    namespace: Infra\
+  #    resource: ../src/infra/*/EventListener
+  #    tags: [kernel.event_listener]
